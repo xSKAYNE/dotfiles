@@ -1,9 +1,7 @@
 {
   imports = [
     ./hypr/default.nix
-    ./programs/browsers.nix
-    ./programs/git.nix
-    ./programs/rofi.nix
+    ./programs/default.nix
     ./shell/kitty.nix
   ];
 }
