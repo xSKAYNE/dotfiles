@@ -98,6 +98,7 @@
     usbutils
     nixpkgs-fmt
     tree
+    nextcloud-client
   ];
 
   hardware.pulseaudio.enable = false;
