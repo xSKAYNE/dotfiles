@@ -5,6 +5,7 @@
     settings = {
       monitor = [
         "desc:Hisense Electric Co. Ltd. HISENSE 0x00000001, preferred, auto, 2, bitdepth, 10, vrr, 2"
+        "desc:Samsung Display Corp. 0x4161, preferred, auto, 1.2"
       ];
 
       "$term" = "kitty";
@@ -118,10 +119,17 @@
         workspace_swipe = false;
       };
 
-      device = {
-        name = "logitech-k400-plus-1";
-        natural_scroll = true;
-      };
+      device = [
+        {
+          name = "logitech-k400-plus-1";
+          natural_scroll = true;
+        }
+
+        {
+          name = "asup1200:00-093a:200a-touchpad";
+          natural_scroll = true;
+        }
+      ];
 
       "$mod" = "SUPER";
 
