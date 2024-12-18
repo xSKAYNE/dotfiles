@@ -3,7 +3,7 @@
 {
   imports = [
     ../../../common/default.nix
-    ./programs/vscode.nix
+    ../../programs/vscode.nix
   ];
 
   home = {
